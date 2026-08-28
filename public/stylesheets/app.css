@@ -1,0 +1,51 @@
+/**
+ * app.css
+ * -----------------------------------------------------
+ * Global styles shared across the entire application.
+ *
+ * Purpose:
+ *  - Provide layout/styling not covered by Bootstrap
+ *  - Ensure footers behave well on all pages
+ *  - Improve custom file input styling
+ *  - Make images responsive by default
+ */
+
+
+/* -----------------------------------------------------
+   FOOTER STYLING
+   Ensures footer spans full width and stays bottom-aligned
+------------------------------------------------------ */
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/* -----------------------------------------------------
+   CUSTOM FILE INPUT STYLES
+   Used when enhancing file upload controls in forms
+------------------------------------------------------ */
+
+/* Fix for long filenames being clipped incorrectly */
+.form-file-label {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+/* Improve clickable area and alignment for file input button */
+.form-file-button {
+    text-align: center;
+    padding: 0 0.75rem;
+}
+
+
+/* -----------------------------------------------------
+   RESPONSIVE IMAGES
+   Ensures images scale well inside their containers
+------------------------------------------------------ */
+.img-fluid {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* prevents distortion when images are constrained */
+}
