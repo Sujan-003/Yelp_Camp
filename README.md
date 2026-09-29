@@ -119,7 +119,7 @@ YELP_CAMP/
 Clone the repository
 
 ```bash
-git clone https://github.com/deepakbgowda07/YELP_CAMP.git
+git clone https://github.com/your-username/YELP_CAMP.git
 ```
 
 Navigate into the project
